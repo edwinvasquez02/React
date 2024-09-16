@@ -21,6 +21,7 @@ function App() {
 
   // null es que no hay ganador, false es que hay un empate
   const [winner, setWinner] = useState(null)
+  
   const resetGame = () => {
     setBoard(Array(9).fill(null))
     setTurn(TURNS.X)
