@@ -78,6 +78,7 @@ const App = (): JSX.Element => {
   return (
     <div className="todoapp">
       <Header onAddTodo={handleAddTodo}/>
+      //Lo demás sigue igual
       <Todos
         onToggleCompleteTodo={handleCompleted}
         onRemoveTodo={handleRemove}
