@@ -19,7 +19,7 @@ function App() {
   }
 
   const toggleSortByCountry = () => {
-    const newSortingValue = sorting === SortBy.NONE ? SortBy.COUNTRY : SortBy.NONE 
+    const newSortingValue = sorting === SortBy.NONE ? SortBy.COUNTRY : SortBy.NONE
     setSorting(newSortingValue)
   }
 
@@ -84,7 +84,7 @@ function App() {
           Colorear Filas
         </button>
         <button onClick={toggleSortByCountry}>
-          {sorting === SortBy.COUNTRY  ? 'No ordenar por país' : 'Ordenar por país'}
+          {sorting === SortBy.COUNTRY ? 'No ordenar por país' : 'Ordenar por país'}
         </button>
         <button onClick={handleReset}>
           Resetear estado
